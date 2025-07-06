@@ -29,8 +29,13 @@ Depois, instale as dependências do projeto utilizando o gerenciador de pacotes 
 ```bash
 npm install
 ```
+Para ajeitar os detalhes do banco de dados MongoDB, crie um arquivo <mark>.env</mark> com as seguintes informações:
+ ```bash
+ PORT=3000
+ MONGO_URI=mongodb+srv://<usuario>:<senha>.@<nomedocluster>.zwgh969.mongodb.net/?retryWrites=true&w=majority&appName=<NomeDoCluster>
+ ```
 
-Para rodar o projeto:
+Assim, o projeto irá rodar na porta 3000. Para rodar o projeto:
 
 ```bash
 node server.js
