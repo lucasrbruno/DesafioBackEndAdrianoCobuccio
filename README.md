@@ -1,4 +1,4 @@
-# DesafioBackEndAdrianoCorbuccio
+# DesafioBackEndAdrianoCobuccio
 Sistema de carteira financeira feita em NodeJS e MongoDB
 
 ## Tecnologias
